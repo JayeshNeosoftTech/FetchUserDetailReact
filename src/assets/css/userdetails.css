@@ -1,0 +1,87 @@
+.user-card{
+    background-color: #FFFFFF;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #b3b3b3;
+    margin: 80px auto 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #121212;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px 15px;
+    min-width: 300px;
+    width: fit-content;
+    min-height: 150px;
+}
+
+.user-card img{
+    border-radius: 100%;
+    background-color: #F8F8F8;
+    width: 150px;
+    height: 150px;
+}
+
+
+.user-name,
+.user-email{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.user-name{
+    font-size: 1.8rem;
+}
+
+.user-email{
+    color:rgb(68, 33, 244);
+    display: block;
+    margin-top: 10px;
+}
+
+.refresh-btn{
+    display: block;
+    padding: 15px;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: rgb(89, 0, 243);
+    border-radius: 6px;
+    border: 1px solid rgb(89, 0, 243);
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.refresh-btn:hover{
+    opacity: 0.8;
+}
+
+.msgTxt{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.loaderTxt{
+    animation: flash 1.5s linear infinite;
+}
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.text-danger{
+    color: red;
+}
